@@ -1,0 +1,12 @@
+#dialog li {
+ list-style-type: none;
+}
+
+#dialog a {
+ text-decoration: none;
+}
+
+
+.dialog-center {
+ vertical-align: 20px;
+}
