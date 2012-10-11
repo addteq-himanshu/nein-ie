@@ -1,9 +1,10 @@
 jQuery(document).ready(function(){
 
-	var h = '<div id="dialog" title="This browser is incompatible">' +
-    '<p>Sorry for the inconvenience, but IRIS is incompatible with your current browser.</p>' +
-    '<p>A list of compatible browsers can be downloaded below:</p>' +
-    '<ul>' +
+	var h = '<style>.iris {margin-left:10px;}</style>' +
+  <div id="dialog" title="This browser is incompatible">' +
+    '<p class="iris">Sorry for the inconvenience, but www.addteq.com is incompatible with your current browser.</p>' +
+    '<p class="iris">A list of compatible browsers can be downloaded below:</p>' +
+    '<ul class="iris">' +
         '<li style="list-style-type:none"><img id="firefox" src="https://raw.github.com/addteq-himanshu/nein-ie/master/firefox.jpeg" height="50px" width="50px"/>' +
              '<span class="dialog-center" style="vertical-align:20px">' +
              '<a  href="http://www.mozilla.org/en-US/firefox/new/" style="text-decoration: none">Firefox</a>' +
