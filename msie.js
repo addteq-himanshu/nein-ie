@@ -1,6 +1,7 @@
 jQuery(document).ready(function(){
 
-	var h = '<style>.iris {margin-left:10px;}</style>' +
+	var h = '' +
+	//var h = '<style>.iris {margin-left:10px;}</style>' +
   <div id="dialog" title="This browser is incompatible">' +
     '<p class="iris">Sorry for the inconvenience, but www.addteq.com is incompatible with your current browser.</p>' +
     '<p class="iris">A list of compatible browsers can be downloaded below:</p>' +
@@ -24,6 +25,8 @@ jQuery(document).ready(function(){
 '</div>';
 	
 	jQuery('body').append(h);
+
+  jQuery('.iris').css('margin-left','10px');
 	
 	jQuery('img#firefox').click(function(){
 		window.location.href="http://www.mozilla.org/en-US/firefox/new/";
