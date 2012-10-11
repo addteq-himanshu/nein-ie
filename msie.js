@@ -9,7 +9,7 @@ jQuery(document).ready(function(){
              '<a  href="http://www.mozilla.org/en-US/firefox/new/" style="text-decoration: none">Firefox</a>' +
              '</span>' +
         '</li>' +
-        '<li style="list-style-type:none"><img id="chrome" src="https://raw.github.com/addteq-himanshu/nein-ie/master/chrome.jpg"  height="50px" width="50px" />' +
+        '<li style="list-style-type:none"><img id="chrome" src="https://raw.github.com/addteq-himanshu/nein-ie/master/chrome.jpeg"  height="50px" width="50px" />' +
             '<span class="dialog-center">' +
             '<a href="https://www.google.com/chrome" style="text-decoration: none">Chrome</a>' +
             '</span>' +
