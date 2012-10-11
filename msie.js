@@ -12,12 +12,12 @@ jQuery(document).ready(function(){
              '</span>' +
         '</li>' +
         '<li style="list-style-type:none"><img id="chrome" src="https://raw.github.com/addteq-himanshu/nein-ie/master/chrome.png"  height="50px" width="50px" />' +
-            '<span class="dialog-center">' +
+            '<span class="dialog-center"  style="vertical-align:20px">' +
             '<a href="https://www.google.com/chrome" style="text-decoration: none">Chrome</a>' +
             '</span>' +
         '</li>' +
         '<li style="list-style-type:none"><img id="safari" src="https://raw.github.com/addteq-himanshu/nein-ie/master/safari.png"  height="50px" width="50px" />' +
-            '<span class="dialog-center">' +
+            '<span class="dialog-center"  style="vertical-align:20px">' +
             '<a href="http://www.apple.com/safari/download/" style="text-decoration: none">Safari</a>' +
             '</span>' +
         '</li style="list-style-type:none">' +
@@ -26,7 +26,7 @@ jQuery(document).ready(function(){
 	
 	jQuery('body').append(h);
 
-  jQuery('.iris').css('margin-left','10px');
+  jQuery('.iris').css({'margin-left':'10px', 'margin-top':'10px'});
 	
 	jQuery('img#firefox').click(function(){
 		window.location.href="http://www.mozilla.org/en-US/firefox/new/";
