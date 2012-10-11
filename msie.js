@@ -2,7 +2,7 @@ jQuery(document).ready(function(){
 
 	var h = '' +
 	//var h = '<style>.iris {margin-left:10px;}</style>' +
-  <div id="dialog" title="This browser is incompatible">' +
+  '<div id="dialog" title="This browser is incompatible">' +
     '<p class="iris">Sorry for the inconvenience, but www.addteq.com is incompatible with your current browser.</p>' +
     '<p class="iris">A list of compatible browsers can be downloaded below:</p>' +
     '<ul class="iris">' +
