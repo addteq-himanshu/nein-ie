@@ -4,21 +4,21 @@ jQuery(document).ready(function(){
     '<p>Sorry for the inconvenience, but IRIS is incompatible with your current browser.</p>' +
     '<p>A list of compatible browsers can be downloaded below:</p>' +
     '<ul>' +
-        '<li><img id="firefox" src="https://raw.github.com/addteq-himanshu/nein-ie/master/firefox.jpeg"/>' +
-             '<span class="dialog-center">' +
-             '<a  href="http://www.mozilla.org/en-US/firefox/new/">Firefox</a>' +
+        '<li style="list-style-type:none"><img id="firefox" src="https://raw.github.com/addteq-himanshu/nein-ie/master/firefox.jpeg"/>' +
+             '<span class="dialog-center" style="vertical-align:20px">' +
+             '<a  href="http://www.mozilla.org/en-US/firefox/new/" style="text-decoration: none">Firefox</a>' +
              '</span>' +
         '</li>' +
-        '<li><img id="chrome" src="https://raw.github.com/addteq-himanshu/nein-ie/master/chrome.jpg" />' +
+        '<li style="list-style-type:none"><img id="chrome" src="https://raw.github.com/addteq-himanshu/nein-ie/master/chrome.jpg" />' +
             '<span class="dialog-center">' +
-            '<a href="https://www.google.com/chrome">Chrome</a>' +
+            '<a href="https://www.google.com/chrome" style="text-decoration: none">Chrome</a>' +
             '</span>' +
         '</li>' +
-        '<li><img id="safari" src="https://raw.github.com/addteq-himanshu/nein-ie/master/safari.png" />' +
+        '<li style="list-style-type:none"><img id="safari" src="https://raw.github.com/addteq-himanshu/nein-ie/master/safari.png" />' +
             '<span class="dialog-center">' +
-            '<a href="http://www.apple.com/safari/download/">Safari</a>' +
+            '<a href="http://www.apple.com/safari/download/" style="text-decoration: none">Safari</a>' +
             '</span>' +
-        '</li>' +
+        '</li style="list-style-type:none">' +
     '</ul>' +
 '</div>';
 	
